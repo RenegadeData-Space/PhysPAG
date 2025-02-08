@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+.details {
+    border: 0 <?php /*?>1px solid #aaa<?php */?>;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+}
+
+.summary {
+    font-family: "Exo 2", Helvetica, Arial, sans-serif;
+    font-size: 1.0em;
+<?php /*?>    font-weight: bold;<?php */?>
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.details[open] {
+    padding: 0.5em;
+}
+
+.details[open] summary {
+<?php /*?>    border-bottom: 1px solid #aaa;<?php */?>
+    margin-bottom: 0.5em;
+}

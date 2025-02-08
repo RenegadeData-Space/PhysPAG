@@ -1,0 +1,10 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Reset CSS */
+
+@import url(reset.css);
+
+/* Responsive (Default) CSS */
+
+@import url("fornax-styles.css");
